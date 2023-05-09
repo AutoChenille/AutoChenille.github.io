@@ -1,12 +1,53 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
+
 <head>
-  <title>Fullscreen Image</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>AUTOCHEILLE</title>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="css/frame.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="css/controls.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="css/custom.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/footer.js"></script>
+    <style>
+        .menu-index {
+            color: rgb(255, 255, 255) !important;
+            opacity: 1 !important;
+            font-weight: 700 !important;
+        }
+    </style>
 </head>
+
 <body>
-  <div id = "image-container">
-    <img src="Chenille.png" alt="image">
-  </div>
+    <div class="menu-container"></div>
+    <div class="content-container">
+        <!-------------------------------------------------------------------------------------------->
+        <!--Start Header-->
+        <div class="banner" style="background: url('img/UneChenille.png') no-repeat center; background-size: cover; height: 300px;"></div>
+        <div class="banner">
+            <div class="banner-table flex-column">
+                <div class="flex-row">
+                    <div class="flex-item flex-column">
+                        <h2 class="add-top-margin-small">L'OCR c'est quoi ?</h2>
+                        <p class="text">
+                            L’objectif de ce projet est de réaliser un logiciel de type OCR (Optical Character Recognition) qui résout une grille de sudoku. Votre application prendra donc en entrée une image représentant une grille de sudoku et affichera en sor- tie la grille
+                            résolue. Dans sa version définitive, votre application devra proposer une interface graphique permettant de charger une image dans un format standard, de la visualiser, de corriger certains de ses défauts, et enfin d’afficher
+                            la grille complètement remplie et résolue. La grille résolue devra également pouvoir être sauvegardée. Votre application devra aussi posséder un aspect apprentissage, qui pourra être séparé de la partie princi- pale,
+                            et qui permettra d’entraîner votre réseau de neurones, puis de sauvegarder et de recharger le résultat de cet apprentissage. Pour plus d'information voir le
+                            <a href="http://www.debug-pro.com/epita/prog/s3s/project/ocr_sudoku_solver_fr.pdf" download target=".blank">pdf</a>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-container"></div>
+    </div>
 </body>
+
 </html>
